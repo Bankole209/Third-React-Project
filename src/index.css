@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Poppins',sans-serif;
+ 
+}
+.capital{
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 350px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border:1px solid steelblue;
+  border-radius: 5px;
+}
+
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.btn{
+  display: inline-block;
+  background:#000;
+  color:#fff;
+  border:none;
+  padding:10px 20px;
+  margin:5px;
+  border-radius: 5px;
+  cursor:pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform:  scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder{
+  border-left: 5px solid green;
+}
+
+.task h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task h3 h2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-form{
+  margin-bottom: 40px;
+}
+
+.form-control{
+  margin:20px 0;
+}
+
+.form-control label{
+  display: block;
+}
+
+.form-control input{
+  width: 100%;
+  height:40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label{
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer{
+  margin-top:30px;
+  text-align: center;
+}
+.foot{
+  padding: 20px 25px;
+  box-shadow: 0.5px 0px 0.5px 0px;
+  background-color: #151518;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.reactfact{
+  color:#61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav-item > h4{
+  color:#DEEBF8;
+
+}
+.main{
+  color:#DEEBF8;
+  padding: 25px 30px;
+  background-image: url(./react.png);
+  background-size: 150px;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+.main > h1{
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main ul > li{
+  line-height: 19px;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+.main ul > li::marker{
+  font-size: 1.5rem;
+  color:#61DAFB;
+}
+.appcolor{
+  background-color: #282D35;
+}
+.mt{
+  margin-top: 5px;
+}
+.mb{
+  margin-bottom: 20px;
+}
+.px{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.my{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.m10{
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+}
+.nav-item{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-item > li {
+  margin: 0px 10px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  color:#DEEBF8;
+  padding-block: 15px;
+}
+.about h2{
+  font-weight: 900;
+  letter-spacing: 0.2px;
+}
+.about .git{
+  margin: 10px 0px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.gray{
+  background-color: #feffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.gray > span {
+  color: #0f1014;
+  margin-left: 10px;
+}
+.blue{
+  background-color: #6293cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue > span{
+  color:#feffff;
+  margin-left: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
